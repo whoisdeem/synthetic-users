@@ -1,0 +1,30 @@
+{
+  "name": "nextjs-talk-to-users",
+  "version": "1.0.0",
+  "description": "A Next.js application to facilitate user interaction with AI personas.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "keywords": [
+    "nextjs",
+    "react",
+    "ai",
+    "user interaction"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "next": "11.1.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "typescript": "4.4.3",
+    "@types/react": "17.0.20",
+    "@types/node": "16.7.13"
+  }
+}
