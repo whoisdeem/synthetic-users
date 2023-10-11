@@ -1,0 +1,61 @@
+/* Reset some default browser styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Global styles for the application */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Styles for the main container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Styles for the input field */
+#audienceDescriptionInput {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+/* Styles for the Start Chat button */
+#startChatButton {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#startChatButton:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for the chat interface */
+#chatInterface {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+/* Styles for error messages */
+.errorMessage {
+  color: #ff0000;
+  margin-bottom: 15px;
+}
